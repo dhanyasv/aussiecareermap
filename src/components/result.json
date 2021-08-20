@@ -1,0 +1,58 @@
+{
+  "product": "Skill Match Data",
+  "matchedJobs": [
+    {
+      "name": "Corporate Services Managers",
+      "match": "100",
+      "tags": [
+        "hot",
+        "nearby"
+      ]
+    },
+    {
+      "name": "Supply, Distribution and Procurement Managers",
+      "match": "80",
+      "improve": "Improve 2 skills",
+      "tags": [
+        "hot",
+        "new"
+      ]
+    },
+    {
+      "name": "Human Resource Managers",
+      "match": "70",
+      "improve": "Improve 3 skills",
+      "tags": [
+        "hot",
+        "new"
+      ]
+    },
+    {
+      "name": "Construction Managers",
+      "match": "50",
+      "improve": "Improve 5 skills",
+      "tags": [
+        "hot",
+        "new"
+      ]
+    },
+    {
+      "name": "Cafe Workers",
+      "match": "50",
+      "improve": "Improve 5 skills",
+      "tags": [
+        "hot",
+        "new"
+      ]
+    },
+    {
+      "name": "Fitness Instructors",
+      "match": "70",
+      "improve": "Improve 3 skills",
+      "tags": [
+        "hot",
+        "new"
+      ]
+    }
+  ]
+}
