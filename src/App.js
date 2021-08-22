@@ -1,10 +1,10 @@
 import './App.css';
 import Header from './components/Header';
-import Select from './components/Autocomplete';
+import SelectAuto from './components/Autocomplete';
 import { makeStyles,withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { ShowData } from './components/Getdata';
-
+import CustomAuto from './components/Auto';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,18 +32,7 @@ function App() {
   return (
     <div className="App">
      <Header />
-     <div className={classes.root}>
-      <Grid container spacing={3}>
-          <Grid item xs>
-          </Grid>
-          <Grid className={classes.select} item xs={10} md={6}>
-            <Select />
-          </Grid>
-          <Grid item xs>
-          </Grid>
-      </Grid>
-     </div>
-     {ShowData()}
+      <SelectAuto />
     </div>
   );
 }

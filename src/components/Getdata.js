@@ -1,36 +1,43 @@
 import { makeStyles,withStyles } from '@material-ui/core/styles';
 import LinearProgress from '@material-ui/core/LinearProgress';
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import AlertDialog from './Dialog';
-
+import { CardHeader } from '@material-ui/core';
 
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
+    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'
   },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
+  header:{
+    textAlign:'center',
+    backgroundColor: '#f1f1f1',
+    height: '100px'
   },
-  title: {
-    fontSize: 14,
+  cardContent:{
+    height:'70px'
   },
-  pos: {
-    marginBottom: 12,
+  skillPercentage:{
+    paddingBottom:'10px'
   },
+  improve:{
+    paddingTop:'10px'
+  },
+  cardAction:{
+      textAlign:'center',
+      justifyContent:'center',
+      padding:'20px'
+  }
 });
 
 const BorderLinearProgress = withStyles((theme) => ({
   root: {
-    height: 10,
-    borderRadius: 5,
+    height: 15,
+    borderRadius: 5
   },
   colorPrimary: {
     backgroundColor: theme.palette.grey[theme.palette.type === 'light' ? 200 : 700],
@@ -53,7 +60,7 @@ export const jsonData = {
         ]
       },
       {
-        name: "Supply, Distribution and Procurement Managers",
+        name: "Supply, Distribution Managers",
         match: "80",
         improve: "Improve 2 skills",
         tags: [
@@ -71,6 +78,38 @@ export const jsonData = {
         ]
       },
       {
+        name: "Construction Managers",
+        match: "50",
+        improve: "Improve 5 skills",
+        tags: [
+          "hot",
+          "new"
+        ]
+      }, {
+        name: "Construction Managers",
+        match: "50",
+        improve: "Improve 5 skills",
+        tags: [
+          "hot",
+          "new"
+        ]
+      }, {
+        name: "Construction Managers",
+        match: "50",
+        improve: "Improve 5 skills",
+        tags: [
+          "hot",
+          "new"
+        ]
+      }, {
+        name: "Construction Managers",
+        match: "50",
+        improve: "Improve 5 skills",
+        tags: [
+          "hot",
+          "new"
+        ]
+      }, {
         name: "Construction Managers",
         match: "50",
         improve: "Improve 5 skills",
@@ -99,34 +138,34 @@ export const jsonData = {
       }
     ]
   };
-const showPopUp = () => {
 
-} 
-export const ShowData = () => {
+export const ShowData = (props) => {
+    const [relevantJobs,setRelevantJobs] = React.useState([])
     const classes = useStyles();
-
+    //console.log(props.bucket1.[0].map((key) => props.bucket1[key]))
     return(
         <div className="main-content">
-        {jsonData.matchedJobs.map((item) =>{
-          return <div className="skill-card">
-          <Card className={classes.root}>
-        <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          {item.name}
-        </Typography>
-        <BorderLinearProgress variant="determinate" value={item.match} />
-        <Typography variant="body2" color="textSecondary">{`${item.match} %`}</Typography>
-            <p>{item.improve}</p>
-      </CardContent>
-      <CardActions>
-        <AlertDialog />
-      </CardActions>
-      
-    </Card>
+        { props.bucket1 && props.bucket1.map((item,index) => {
+            //item.map((val) => console.log(val))
+          return <div className="skill-card" key={index}>
+            <Card className={classes.root}>
+                <CardHeader className={classes.header} title={item[0].ANZSCO_Title}></CardHeader>
+                <CardContent className={classes.cardContent}>
+                    <Typography className={classes.skillPercentage} variant="caption" component="h2">
+                        Skill percentage
+                    </Typography>
+                    <BorderLinearProgress  variant="determinate" value={parseInt(100)} />
+                    <Typography   variant="body2" color="textSecondary">100 %</Typography>
+                    <Typography variant="subtitle2" gutterBottom>
+                        {item[0].ANZSCO_Title.improve}
+                    </Typography>
+                </CardContent>
+                <CardActions className={classes.cardAction}>
+                    <AlertDialog />
+                </CardActions>
+            </Card>
         </div>
-        })}
-          
-        
+        })}   
       </div>
     )
 }

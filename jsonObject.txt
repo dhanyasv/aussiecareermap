@@ -1,0 +1,2401 @@
+[{
+		id: 1111,
+		title: 'Chief Executives and Managing Directors'
+	},
+	{
+		id: 1112,
+		title: 'General Managers'
+	},
+	{
+		id: 1213,
+		title: 'Livestock Farmers'
+	},
+	{
+		id: 1214,
+		title: 'Mixed Crop and Livestock Farmers'
+	},
+	{
+		id: 1321,
+		title: 'Corporate Services Managers'
+	},
+	{
+		id: 1322,
+		title: 'Finance Managers'
+	},
+	{
+		id: 1323,
+		title: 'Human Resource Managers'
+	},
+	{
+		id: 1324,
+		title: 'Policy and Planning Managers'
+	},
+	{
+		id: 1325,
+		title: 'Research and Development Managers'
+	},
+	{
+		id: 1331,
+		title: 'Construction Managers'
+	},
+	{
+		id: 1332,
+		title: 'Engineering Managers'
+	},
+	{
+		id: 1333,
+		title: 'Importers, Exporters and Wholesalers'
+	},
+	{
+		id: 1336,
+		title: 'Supply, Distribution and Procurement Managers'
+	},
+	{
+		id: 1341,
+		title: 'Child Care Centre Managers'
+	},
+	{
+		id: 1342,
+		title: 'Health and Welfare Services Managers'
+	},
+	{
+		id: 1343,
+		title: 'School Principals'
+	},
+	{
+		id: 1344,
+		title: 'Education Managers'
+	},
+	{
+		id: 1351,
+		title: 'ICT Managers'
+	},
+	{
+		id: 1411,
+		title: 'Cafe and Restaurant Managers'
+	},
+	{
+		id: 1413,
+		title: 'Hotel and Motel Managers'
+	},
+	{
+		id: 1414,
+		title: 'Licensed Club Managers'
+	},
+	{
+		id: 1421,
+		title: 'Retail Managers'
+	},
+	{
+		id: 1491,
+		title: 'Amusement, Fitness and Sports Centre Managers'
+	},
+	{
+		id: 1493,
+		title: 'Conference and Event Organisers'
+	},
+	{
+		id: 2113,
+		title: 'Photographers'
+	},
+	{
+		id: 2114,
+		title: 'Visual Arts and Crafts Professionals'
+	},
+	{
+		id: 2123,
+		title: 'Film, Television, Radio and Stage Directors'
+	},
+	{
+		id: 2124,
+		title: 'Journalists and Writers'
+	},
+	{
+		id: 2221,
+		title: 'Financial Brokers'
+	},
+	{
+		id: 2222,
+		title: 'Financial Dealers'
+	},
+	{
+		id: 2232,
+		title: 'ICT Trainers'
+	},
+	{
+		id: 2233,
+		title: 'Training and Development Professionals'
+	},
+	{
+		id: 2243,
+		title: 'Economists'
+	},
+	{
+		id: 2245,
+		title: 'Land Economists and Valuers'
+	},
+	{
+		id: 2246,
+		title: 'Librarians'
+	},
+	{
+		id: 2251,
+		title: 'Advertising and Marketing Professionals'
+	},
+	{
+		id: 2252,
+		title: 'ICT Sales Professionals'
+	},
+	{
+		id: 2253,
+		title: 'Public Relations Professionals'
+	},
+	{
+		id: 2254,
+		title: 'Technical Sales Representatives'
+	},
+	{
+		id: 2311,
+		title: 'Air Transport Professionals'
+	},
+	{
+		id: 2322,
+		title: 'Surveyors and Spatial Scientists'
+	},
+	{
+		id: 2325,
+		title: 'Interior Designers'
+	},
+	{
+		id: 2326,
+		title: 'Urban and Regional Planners'
+	},
+	{
+		id: 2333,
+		title: 'Electrical Engineers'
+	},
+	{
+		id: 2334,
+		title: 'Electronics Engineers'
+	},
+	{
+		id: 2341,
+		title: 'Agricultural and Forestry Scientists'
+	},
+	{
+		id: 2344,
+		title: 'Geologists, Geophysicists and Hydrogeologists'
+	},
+	{
+		id: 2346,
+		title: 'Medical Laboratory Scientists'
+	},
+	{
+		id: 2347,
+		title: 'Veterinarians'
+	},
+	{
+		id: 2411,
+		title: 'Early Childhood Teachers'
+	},
+	{
+		id: 2412,
+		title: 'Primary School Teachers'
+	},
+	{
+		id: 2413,
+		title: 'Middle School Teachers'
+	},
+	{
+		id: 2414,
+		title: 'Secondary School Teachers'
+	},
+	{
+		id: 2415,
+		title: 'Special Education Teachers'
+	},
+	{
+		id: 2422,
+		title: 'Vocational Education Teachers'
+	},
+	{
+		id: 2491,
+		title: 'Education Advisers and Reviewers'
+	},
+	{
+		id: 2492,
+		title: 'Private Art, Dance, Drama and Music Teachers'
+	},
+	{
+		id: 2511,
+		title: 'Nutrition Professionals'
+	},
+	{
+		id: 2521,
+		title: 'Chiropractors and Osteopaths'
+	},
+	{
+		id: 2522,
+		title: 'Complementary Health Therapists'
+	},
+	{
+		id: 2523,
+		title: 'Dental Practitioners'
+	},
+	{
+		id: 2524,
+		title: 'Occupational Therapists'
+	},
+	{
+		id: 2525,
+		title: 'Physiotherapists'
+	},
+	{
+		id: 2526,
+		title: 'Podiatrists'
+	},
+	{
+		id: 2532,
+		title: 'Anaesthetists'
+	},
+	{
+		id: 2533,
+		title: 'Specialist Physicians'
+	},
+	{
+		id: 2534,
+		title: 'Psychiatrists'
+	},
+	{
+		id: 2535,
+		title: 'Surgeons'
+	},
+	{
+		id: 2541,
+		title: 'Midwives'
+	},
+	{
+		id: 2543,
+		title: 'Nurse Managers'
+	},
+	{
+		id: 2544,
+		title: 'Registered Nurses'
+	},
+	{
+		id: 2611,
+		title: 'ICT Business and Systems Analysts'
+	},
+	{
+		id: 2633,
+		title: 'Telecommunications Engineering Professionals'
+	},
+	{
+		id: 2711,
+		title: 'Barristers'
+	},
+	{
+		id: 2712,
+		title: 'Judicial and Legal Professionals'
+	},
+	{
+		id: 2713,
+		title: 'Solicitors'
+	},
+	{
+		id: 2721,
+		title: 'Counsellors'
+	},
+	{
+		id: 2722,
+		title: 'Ministers of Religion'
+	},
+	{
+		id: 2724,
+		title: 'Social Professionals'
+	},
+	{
+		id: 2725,
+		title: 'Social Workers'
+	},
+	{
+		id: 3111,
+		title: 'Agricultural Technicians'
+	},
+	{
+		id: 3113,
+		title: 'Primary Products Inspectors'
+	},
+	{
+		id: 3124,
+		title: 'Electronic Engineering Draftspersons and Technicians'
+	},
+	{
+		id: 3132,
+		title: 'Telecommunications Technical Specialists'
+	},
+	{
+		id: 3211,
+		title: 'Automotive Electricians'
+	},
+	{
+		id: 3221,
+		title: 'Metal Casting, Forging and Finishing Trades Workers'
+	},
+	{
+		id: 3222,
+		title: 'Sheetmetal Trades Workers'
+	},
+	{
+		id: 3241,
+		title: 'Panelbeaters'
+	},
+	{
+		id: 3242,
+		title: 'Vehicle Body Builders and Trimmers'
+	},
+	{
+		id: 3243,
+		title: 'Vehicle Painters'
+	},
+	{
+		id: 3321,
+		title: 'Floor Finishers'
+	},
+	{
+		id: 3322,
+		title: 'Painting Trades Workers'
+	},
+	{
+		id: 3331,
+		title: 'Glaziers'
+	},
+	{
+		id: 3333,
+		title: 'Roof Tilers'
+	},
+	{
+		id: 3334,
+		title: 'Wall and Floor Tilers'
+	},
+	{
+		id: 3411,
+		title: 'Electricians'
+	},
+	{
+		id: 3421,
+		title: 'Airconditioning and Refrigeration Mechanics'
+	},
+	{
+		id: 3422,
+		title: 'Electrical Distribution Trades Workers'
+	},
+	{
+		id: 3424,
+		title: 'Telecommunications Trades Workers'
+	},
+	{
+		id: 3511,
+		title: 'Bakers and Pastrycooks'
+	},
+	{
+		id: 3512,
+		title: 'Butchers and Smallgoods Makers'
+	},
+	{
+		id: 3513,
+		title: 'Chefs'
+	},
+	{
+		id: 3514,
+		title: 'Cooks'
+	},
+	{
+		id: 3611,
+		title: 'Animal Attendants and Trainers'
+	},
+	{
+		id: 3613,
+		title: 'Veterinary Nurses'
+	},
+	{
+		id: 3621,
+		title: 'Florists'
+	},
+	{
+		id: 3622,
+		title: 'Gardeners'
+	},
+	{
+		id: 3623,
+		title: 'Greenkeepers'
+	},
+	{
+		id: 3624,
+		title: 'Nurserypersons'
+	},
+	{
+		id: 3911,
+		title: 'Hairdressers'
+	},
+	{
+		id: 3922,
+		title: 'Graphic Pre-press Trades Workers'
+	},
+	{
+		id: 3923,
+		title: 'Printers'
+	},
+	{
+		id: 3933,
+		title: 'Upholsterers'
+	},
+	{
+		id: 3941,
+		title: 'Cabinetmakers'
+	},
+	{
+		id: 3991,
+		title: 'Boat Builders and Shipwrights'
+	},
+	{
+		id: 3994,
+		title: 'Jewellers'
+	},
+	{
+		id: 3996,
+		title: 'Signwriters'
+	},
+	{
+		id: 4111,
+		title: 'Ambulance Officers and Paramedics'
+	},
+	{
+		id: 4113,
+		title: 'Diversional Therapists'
+	},
+	{
+		id: 4115,
+		title: 'Indigenous Health Workers'
+	},
+	{
+		id: 4116,
+		title: 'Massage Therapists'
+	},
+	{
+		id: 4221,
+		title: 'Education Aides'
+	},
+	{
+		id: 4231,
+		title: 'Aged and Disabled Carers'
+	},
+	{
+		id: 4232,
+		title: 'Dental Assistants'
+	},
+	{
+		id: 4234,
+		title: 'Special Care Workers'
+	},
+	{
+		id: 4312,
+		title: 'Cafe Workers'
+	},
+	{
+		id: 4313,
+		title: 'Gaming Workers'
+	},
+	{
+		id: 4314,
+		title: 'Hotel Service Managers'
+	},
+	{
+		id: 4315,
+		title: 'Waiters'
+	},
+	{
+		id: 4421,
+		title: 'Prison Officers'
+	},
+	{
+		id: 4511,
+		title: 'Beauty Therapists'
+	},
+	{
+		id: 4512,
+		title: 'Driving Instructors'
+	},
+	{
+		id: 4513,
+		title: 'Funeral Workers'
+	},
+	{
+		id: 4514,
+		title: 'Gallery, Museum and Tour Guides'
+	},
+	{
+		id: 4517,
+		title: 'Travel Attendants'
+	},
+	{
+		id: 4521,
+		title: 'Fitness Instructors'
+	},
+	{
+		id: 4522,
+		title: 'Outdoor Adventure Guides'
+	},
+	{
+		id: 4523,
+		title: 'Sports Coaches, Instructors and Officials'
+	},
+	{
+		id: 4524,
+		title: 'Sportspersons'
+	},
+	{
+		id: 5121,
+		title: 'Office Managers'
+	},
+	{
+		id: 5211,
+		title: 'Personal Assistants'
+	},
+	{
+		id: 5311,
+		title: 'General Clerks'
+	},
+	{
+		id: 5412,
+		title: 'Information Officers'
+	},
+	{
+		id: 5512,
+		title: 'Bookkeepers'
+	},
+	{
+		id: 5513,
+		title: 'Payroll Clerks'
+	},
+	{
+		id: 5521,
+		title: 'Bank Workers'
+	},
+	{
+		id: 5522,
+		title: 'Credit and Loans Officers'
+	},
+	{
+		id: 5611,
+		title: 'Betting Clerks'
+	},
+	{
+		id: 5613,
+		title: 'Filing and Registry Clerks'
+	},
+	{
+		id: 5614,
+		title: 'Mail Sorters'
+	},
+	{
+		id: 5615,
+		title: 'Survey Interviewers'
+	},
+	{
+		id: 5616,
+		title: 'Switchboard Operators'
+	},
+	{
+		id: 5912,
+		title: 'Transport and Despatch Clerks'
+	},
+	{
+		id: 5991,
+		title: 'Conveyancers and Legal Executives'
+	},
+	{
+		id: 5992,
+		title: 'Court and Legal Clerks'
+	},
+	{
+		id: 5993,
+		title: 'Debt Collectors'
+	},
+	{
+		id: 5994,
+		title: 'Human Resource Clerks'
+	},
+	{
+		id: 5995,
+		title: 'Inspectors and Regulatory Officers'
+	},
+	{
+		id: 5996,
+		title: 'Insurance Investigators, Loss Adjusters and Risk Surveyors'
+	},
+	{
+		id: 5997,
+		title: 'Library Assistants'
+	},
+	{
+		id: 6111,
+		title: 'Auctioneers, and Stock and Station Agents'
+	},
+	{
+		id: 6112,
+		title: 'Insurance Agents'
+	},
+	{
+		id: 6113,
+		title: 'Sales Representatives'
+	},
+	{
+		id: 6211,
+		title: 'Sales Assistants '
+	},
+	{
+		id: 6214,
+		title: 'Pharmacy Sales Assistants'
+	},
+	{
+		id: 6215,
+		title: 'Retail Supervisors'
+	},
+	{
+		id: 6217,
+		title: 'Street Vendors and Related Salespersons'
+	},
+	{
+		id: 6311,
+		title: 'Checkout Operators and Office Cashiers'
+	},
+	{
+		id: 6393,
+		title: 'Telemarketers'
+	},
+	{
+		id: 6394,
+		title: 'Ticket Salespersons'
+	},
+	{
+		id: 6395,
+		title: 'Visual Merchandisers'
+	},
+	{
+		id: 7111,
+		title: 'Clay, Concrete, Glass and Stone Processing Machine Operators'
+	},
+	{
+		id: 7112,
+		title: 'Industrial Spraypainters'
+	},
+	{
+		id: 7113,
+		title: 'Paper and Wood Processing Machine Operators'
+	},
+	{
+		id: 7114,
+		title: 'Photographic Developers and Printers'
+	},
+	{
+		id: 7115,
+		title: 'Plastics and Rubber Production Machine Operators'
+	},
+	{
+		id: 7116,
+		title: 'Sewing Machinists'
+	},
+	{
+		id: 7117,
+		title: 'Textile and Footwear Production Machine Operators'
+	},
+	{
+		id: 7121,
+		title: 'Crane, Hoist and Lift Operators'
+	},
+	{
+		id: 7123,
+		title: 'Engineering Production Workers'
+	},
+	{
+		id: 7213,
+		title: 'Forklift Drivers'
+	},
+	{
+		id: 7311,
+		title: 'Automobile Drivers'
+	},
+	{
+		id: 7312,
+		title: 'Bus and Coach Drivers'
+	},
+	{
+		id: 7321,
+		title: 'Delivery Drivers'
+	},
+	{
+		id: 7331,
+		title: 'Truck Drivers'
+	},
+	{
+		id: 7411,
+		title: 'Storepersons'
+	},
+	{
+		id: 8111,
+		title: 'Car Detailers'
+	},
+	{
+		id: 8112,
+		title: 'Commercial Cleaners'
+	},
+	{
+		id: 8113,
+		title: 'Domestic Cleaners'
+	},
+	{
+		id: 8114,
+		title: 'Housekeepers'
+	},
+	{
+		id: 8115,
+		title: 'Laundry Workers'
+	},
+	{
+		id: 8212,
+		title: 'Concreters'
+	},
+	{
+		id: 8213,
+		title: 'Fencers'
+	},
+	{
+		id: 8215,
+		title: 'Paving and Surfacing Labourers'
+	},
+	{
+		id: 8216,
+		title: 'Railway Track Workers'
+	},
+	{
+		id: 8311,
+		title: 'Food and Drink Factory Workers'
+	},
+	{
+		id: 8313,
+		title: 'Meat, Poultry and Seafood Process Workers'
+	},
+	{
+		id: 8321,
+		title: 'Packers'
+	},
+	{
+		id: 8322,
+		title: 'Product Assemblers'
+	},
+	{
+		id: 8399,
+		title: 'Factory Process Workers'
+	},
+	{
+		id: 8412,
+		title: 'Crop Farm Workers'
+	},
+	{
+		id: 8414,
+		title: 'Garden and Nursery Labourers'
+	},
+	{
+		id: 8415,
+		title: 'Livestock Farm Workers'
+	},
+	{
+		id: 8416,
+		title: 'Mixed Crop and Livestock Farm Workers'
+	},
+	{
+		id: 8511,
+		title: 'Fast Food Cooks'
+	},
+	{
+		id: 8512,
+		title: 'Food Trades Assistants'
+	},
+	{
+		id: 8513,
+		title: 'Kitchenhands'
+	},
+	{
+		id: 8911,
+		title: 'Freight and Furniture Handlers'
+	},
+	{
+		id: 8912,
+		title: 'Shelf Fillers'
+	},
+	{
+		id: 8991,
+		title: 'Caretakers'
+	},
+	{
+		id: 8993,
+		title: 'Handypersons'
+	},
+	{
+		id: 8994,
+		title: 'Motor Vehicle Parts and Accessories Fitters'
+	},
+	{
+		id: 8996,
+		title: 'Recycling and Rubbish Collectors'
+	},
+	{
+		id: 8997,
+		title: 'Vending Machine Attendants'
+	},
+	{
+		id: 131112,
+		title: 'Sales and Marketing Manager'
+	},
+	{
+		id: 131113,
+		title: 'Advertising Manager'
+	},
+	{
+		id: 131114,
+		title: 'Public Relations Manager'
+	},
+	{
+		id: 133512,
+		title: 'Production Manager in Manufacturing'
+	},
+	{
+		id: 133513,
+		title: 'Production Manager in Mining'
+	},
+	{
+		id: 134411,
+		title: 'Faculty Head'
+	},
+	{
+		id: 135111,
+		title: 'Chief Information Officer'
+	},
+	{
+		id: 139912,
+		title: 'Environmental Manager'
+	},
+	{
+		id: 139913,
+		title: 'Laboratory Manager'
+	},
+	{
+		id: 139914,
+		title: 'Quality Assurance Manager'
+	},
+	{
+		id: 142114,
+		title: 'Hair or Beauty Salon Manager'
+	},
+	{
+		id: 142115,
+		title: 'Post Office Manager'
+	},
+	{
+		id: 149211,
+		title: 'Call or Contact Centre Manager'
+	},
+	{
+		id: 149212,
+		title: 'Customer Service Manager'
+	},
+	{
+		id: 149411,
+		title: 'Fleet Manager'
+	},
+	{
+		id: 149413,
+		title: 'Transport Company Manager'
+	},
+	{
+		id: 149913,
+		title: 'Facilities Manager'
+	},
+	{
+		id: 149914,
+		title: 'Financial Institution Branch Manager'
+	},
+	{
+		id: 211111,
+		title: 'Actor'
+	},
+	{
+		id: 211112,
+		title: 'Dancer or Choreographer'
+	},
+	{
+		id: 211113,
+		title: 'Entertainer or Variety Artist'
+	},
+	{
+		id: 211211,
+		title: 'Composer'
+	},
+	{
+		id: 211213,
+		title: 'Musician'
+	},
+	{
+		id: 211214,
+		title: 'Singer'
+	},
+	{
+		id: 212111,
+		title: 'Artistic Director'
+	},
+	{
+		id: 212112,
+		title: 'Media Producer'
+	},
+	{
+		id: 212113,
+		title: 'Radio Presenter'
+	},
+	{
+		id: 212211,
+		title: 'Author'
+	},
+	{
+		id: 212212,
+		title: 'Book or Script Editor'
+	},
+	{
+		id: 212314,
+		title: 'Film and Video Editor'
+	},
+	{
+		id: 212411,
+		title: 'Copywriter'
+	},
+	{
+		id: 212415,
+		title: 'Technical Writer'
+	},
+	{
+		id: 221111,
+		title: 'Accountant  '
+	},
+	{
+		id: 221112,
+		title: 'Management Accountant'
+	},
+	{
+		id: 221113,
+		title: 'Taxation Accountant'
+	},
+	{
+		id: 221212,
+		title: 'Corporate Treasurer'
+	},
+	{
+		id: 221213,
+		title: 'External Auditor'
+	},
+	{
+		id: 221214,
+		title: 'Internal Auditor'
+	},
+	{
+		id: 222111,
+		title: 'Commodities Trader'
+	},
+	{
+		id: 222311,
+		title: 'Financial Investment Adviser'
+	},
+	{
+		id: 222312,
+		title: 'Financial Investment Manager'
+	},
+	{
+		id: 223111,
+		title: 'Human Resource Adviser'
+	},
+	{
+		id: 223112,
+		title: 'Recruitment Consultant'
+	},
+	{
+		id: 223113,
+		title: 'Workplace Relations Adviser'
+	},
+	{
+		id: 224111,
+		title: 'Actuary'
+	},
+	{
+		id: 224112,
+		title: 'Mathematician'
+	},
+	{
+		id: 224113,
+		title: 'Statistician'
+	},
+	{
+		id: 224211,
+		title: 'Archivist'
+	},
+	{
+		id: 224212,
+		title: 'Gallery or Museum Curator'
+	},
+	{
+		id: 224213,
+		title: 'Health Information Manager'
+	},
+	{
+		id: 224214,
+		title: 'Records Manager'
+	},
+	{
+		id: 224411,
+		title: 'Intelligence Officer'
+	},
+	{
+		id: 224412,
+		title: 'Policy Analyst'
+	},
+	{
+		id: 224512,
+		title: 'Valuer'
+	},
+	{
+		id: 224711,
+		title: 'Management Consultant'
+	},
+	{
+		id: 224712,
+		title: 'Organisation and Methods Analyst'
+	},
+	{
+		id: 224912,
+		title: 'Liaison Officer'
+	},
+	{
+		id: 225112,
+		title: 'Market Research Analyst'
+	},
+	{
+		id: 225113,
+		title: 'Marketing Specialist'
+	},
+	{
+		id: 231111,
+		title: 'Aeroplane Pilot'
+	},
+	{
+		id: 231112,
+		title: 'Air Traffic Controller'
+	},
+	{
+		id: 231213,
+		title: 'Ship\'s Master'
+	},
+	{
+		id: 231214,
+		title: 'Ship\'s Officer'
+	},
+	{
+		id: 232111,
+		title: 'Architect'
+	},
+	{
+		id: 232112,
+		title: 'Landscape Architect'
+	},
+	{
+		id: 232311,
+		title: 'Fashion Designer'
+	},
+	{
+		id: 232312,
+		title: 'Industrial Designer'
+	},
+	{
+		id: 232411,
+		title: 'Graphic Designer'
+	},
+	{
+		id: 232412,
+		title: 'Illustrator'
+	},
+	{
+		id: 232413,
+		title: 'Multimedia Designer'
+	},
+	{
+		id: 232414,
+		title: 'Web Designer'
+	},
+	{
+		id: 233111,
+		title: 'Chemical Engineer'
+	},
+	{
+		id: 233112,
+		title: 'Materials Engineer'
+	},
+	{
+		id: 233211,
+		title: 'Civil Engineer'
+	},
+	{
+		id: 233212,
+		title: 'Geotechnical Engineer'
+	},
+	{
+		id: 233213,
+		title: 'Quantity Surveyor'
+	},
+	{
+		id: 233214,
+		title: 'Structural Engineer'
+	},
+	{
+		id: 233215,
+		title: 'Transport Engineer'
+	},
+	{
+		id: 233511,
+		title: 'Industrial Engineer'
+	},
+	{
+		id: 233512,
+		title: 'Mechanical Engineer'
+	},
+	{
+		id: 233513,
+		title: 'Production or Plant Engineer'
+	},
+	{
+		id: 233611,
+		title: 'Mining Engineer '
+	},
+	{
+		id: 233612,
+		title: 'Petroleum Engineer'
+	},
+	{
+		id: 233911,
+		title: 'Aeronautical Engineer'
+	},
+	{
+		id: 233913,
+		title: 'Biomedical Engineer'
+	},
+	{
+		id: 233914,
+		title: 'Engineering Technologist'
+	},
+	{
+		id: 233915,
+		title: 'Environmental Engineer'
+	},
+	{
+		id: 233916,
+		title: 'Naval Architect'
+	},
+	{
+		id: 234211,
+		title: 'Chemist'
+	},
+	{
+		id: 234212,
+		title: 'Food Technologist'
+	},
+	{
+		id: 234213,
+		title: 'Wine Maker'
+	},
+	{
+		id: 234311,
+		title: 'Conservation Officer'
+	},
+	{
+		id: 234312,
+		title: 'Environmental Consultant'
+	},
+	{
+		id: 234313,
+		title: 'Environmental Research Scientist'
+	},
+	{
+		id: 234314,
+		title: 'Park Ranger'
+	},
+	{
+		id: 234511,
+		title: 'Life Scientist  '
+	},
+	{
+		id: 234513,
+		title: 'Biochemist'
+	},
+	{
+		id: 234514,
+		title: 'Biotechnologist'
+	},
+	{
+		id: 234515,
+		title: 'Botanist'
+	},
+	{
+		id: 234517,
+		title: 'Microbiologist'
+	},
+	{
+		id: 234518,
+		title: 'Zoologist'
+	},
+	{
+		id: 234911,
+		title: 'Conservator'
+	},
+	{
+		id: 234912,
+		title: 'Metallurgist'
+	},
+	{
+		id: 234913,
+		title: 'Meteorologist'
+	},
+	{
+		id: 234914,
+		title: 'Physicist'
+	},
+	{
+		id: 242111,
+		title: 'University Lecturer'
+	},
+	{
+		id: 242112,
+		title: 'University Tutor'
+	},
+	{
+		id: 249212,
+		title: 'Dance Teacher '
+	},
+	{
+		id: 249214,
+		title: 'Music Teacher '
+	},
+	{
+		id: 251211,
+		title: 'Medical Diagnostic Radiographer'
+	},
+	{
+		id: 251212,
+		title: 'Medical Radiation Therapist'
+	},
+	{
+		id: 251213,
+		title: 'Nuclear Medicine Technologist'
+	},
+	{
+		id: 251214,
+		title: 'Sonographer'
+	},
+	{
+		id: 251311,
+		title: 'Environmental Health Officer'
+	},
+	{
+		id: 251312,
+		title: 'Occupational Health and Safety Adviser'
+	},
+	{
+		id: 251411,
+		title: 'Optometrist'
+	},
+	{
+		id: 251412,
+		title: 'Orthoptist'
+	},
+	{
+		id: 251511,
+		title: 'Hospital Pharmacist'
+	},
+	{
+		id: 251513,
+		title: 'Retail Pharmacist'
+	},
+	{
+		id: 251911,
+		title: 'Health Promotion Officer'
+	},
+	{
+		id: 251912,
+		title: 'Orthotist or Prosthetist'
+	},
+	{
+		id: 252211,
+		title: 'Acupuncturist'
+	},
+	{
+		id: 252213,
+		title: 'Naturopath'
+	},
+	{
+		id: 252711,
+		title: 'Audiologist'
+	},
+	{
+		id: 252712,
+		title: 'Speech Pathologist'
+	},
+	{
+		id: 253111,
+		title: 'General Practitioner'
+	},
+	{
+		id: 253112,
+		title: 'Resident Medical Officer'
+	},
+	{
+		id: 253317,
+		title: 'Intensive Care Specialist'
+	},
+	{
+		id: 253318,
+		title: 'Neurologist'
+	},
+	{
+		id: 253321,
+		title: 'Paediatrician'
+	},
+	{
+		id: 253324,
+		title: 'Thoracic Medicine Specialist'
+	},
+	{
+		id: 253911,
+		title: 'Dermatologist'
+	},
+	{
+		id: 253912,
+		title: 'Emergency Medicine Specialist'
+	},
+	{
+		id: 253913,
+		title: 'Obstetrician and Gynaecologist'
+	},
+	{
+		id: 253914,
+		title: 'Ophthalmologist'
+	},
+	{
+		id: 253915,
+		title: 'Pathologist'
+	},
+	{
+		id: 253917,
+		title: 'Diagnostic and Interventional Radiologist'
+	},
+	{
+		id: 254211,
+		title: 'Nurse Educator'
+	},
+	{
+		id: 254212,
+		title: 'Nurse Researcher'
+	},
+	{
+		id: 254411,
+		title: 'Nurse Practitioner'
+	},
+	{
+		id: 254415,
+		title: 'Registered Nurse (Critical Care and Emergency)'
+	},
+	{
+		id: 254422,
+		title: 'Registered Nurse (Mental Health)'
+	},
+	{
+		id: 254424,
+		title: 'Registered Nurse (Surgical)'
+	},
+	{
+		id: 261211,
+		title: 'Multimedia Specialist'
+	},
+	{
+		id: 261212,
+		title: 'Web Developer'
+	},
+	{
+		id: 261311,
+		title: 'Analyst Programmer'
+	},
+	{
+		id: 261312,
+		title: 'Developer Programmer'
+	},
+	{
+		id: 261313,
+		title: 'Software Engineer'
+	},
+	{
+		id: 261314,
+		title: 'Software Tester'
+	},
+	{
+		id: 262111,
+		title: 'Database Administrator'
+	},
+	{
+		id: 262112,
+		title: 'ICT Security Specialist'
+	},
+	{
+		id: 262113,
+		title: 'Systems Administrator'
+	},
+	{
+		id: 263111,
+		title: 'Computer Network and Systems Engineer'
+	},
+	{
+		id: 263112,
+		title: 'Network Administrator'
+	},
+	{
+		id: 263113,
+		title: 'Network Analyst'
+	},
+	{
+		id: 263211,
+		title: 'ICT Quality Assurance Engineer'
+	},
+	{
+		id: 263212,
+		title: 'ICT Support Engineer'
+	},
+	{
+		id: 263213,
+		title: 'ICT Systems Test Engineer'
+	},
+	{
+		id: 272111,
+		title: 'Careers Counsellor'
+	},
+	{
+		id: 272112,
+		title: 'Drug and Alcohol Counsellor'
+	},
+	{
+		id: 272113,
+		title: 'Family and Marriage Counsellor'
+	},
+	{
+		id: 272114,
+		title: 'Rehabilitation Counsellor'
+	},
+	{
+		id: 272115,
+		title: 'Student Counsellor'
+	},
+	{
+		id: 272311,
+		title: 'Clinical Psychologist'
+	},
+	{
+		id: 272312,
+		title: 'Educational Psychologist'
+	},
+	{
+		id: 272313,
+		title: 'Organisational Psychologist'
+	},
+	{
+		id: 272411,
+		title: 'Historian'
+	},
+	{
+		id: 272412,
+		title: 'Interpreter'
+	},
+	{
+		id: 272413,
+		title: 'Translator'
+	},
+	{
+		id: 272612,
+		title: 'Recreation Officer'
+	},
+	{
+		id: 272613,
+		title: 'Welfare Worker'
+	},
+	{
+		id: 311211,
+		title: 'Anaesthetic Technician'
+	},
+	{
+		id: 311212,
+		title: 'Cardiac Technician'
+	},
+	{
+		id: 311213,
+		title: 'Medical Laboratory Technician'
+	},
+	{
+		id: 311214,
+		title: 'Operating Theatre Technician'
+	},
+	{
+		id: 311215,
+		title: 'Pharmacy Technician'
+	},
+	{
+		id: 311216,
+		title: 'Pathology Collector'
+	},
+	{
+		id: 311411,
+		title: 'Chemistry Technician'
+	},
+	{
+		id: 311412,
+		title: 'Earth Science Technician'
+	},
+	{
+		id: 311413,
+		title: 'Life Science Technician'
+	},
+	{
+		id: 312111,
+		title: 'Architectural Draftsperson'
+	},
+	{
+		id: 312112,
+		title: 'Building Associate'
+	},
+	{
+		id: 312113,
+		title: 'Building Inspector'
+	},
+	{
+		id: 312114,
+		title: 'Construction Estimator'
+	},
+	{
+		id: 312116,
+		title: 'Surveying or Spatial Science Technician'
+	},
+	{
+		id: 312211,
+		title: 'Civil Engineering Draftsperson'
+	},
+	{
+		id: 312212,
+		title: 'Civil Engineering Technician'
+	},
+	{
+		id: 312311,
+		title: 'Electrical Engineering Draftsperson'
+	},
+	{
+		id: 312312,
+		title: 'Electrical Engineering Technician'
+	},
+	{
+		id: 312511,
+		title: 'Mechanical Engineering Draftsperson'
+	},
+	{
+		id: 312512,
+		title: 'Mechanical Engineering Technician'
+	},
+	{
+		id: 313111,
+		title: 'Hardware Technician'
+	},
+	{
+		id: 313112,
+		title: 'ICT Customer Support Officer'
+	},
+	{
+		id: 313113,
+		title: 'Web Administrator'
+	},
+	{
+		id: 321211,
+		title: 'Motor Mechanic  '
+	},
+	{
+		id: 321212,
+		title: 'Diesel Motor Mechanic'
+	},
+	{
+		id: 321213,
+		title: 'Motorcycle Mechanic'
+	},
+	{
+		id: 321214,
+		title: 'Small Engine Mechanic'
+	},
+	{
+		id: 322311,
+		title: 'Metal Fabricator'
+	},
+	{
+		id: 322313,
+		title: 'Welder'
+	},
+	{
+		id: 323111,
+		title: 'Aircraft Maintenance Engineer (Avionics)'
+	},
+	{
+		id: 323112,
+		title: 'Aircraft Maintenance Engineer (Mechanical)'
+	},
+	{
+		id: 323211,
+		title: 'Fitter  '
+	},
+	{
+		id: 323214,
+		title: 'Metal Machinist '
+	},
+	{
+		id: 323313,
+		title: 'Locksmith'
+	},
+	{
+		id: 323314,
+		title: 'Precision Instrument Maker and Repairer'
+	},
+	{
+		id: 323316,
+		title: 'Watch and Clock Maker and Repairer'
+	},
+	{
+		id: 323411,
+		title: 'Engineering Patternmaker'
+	},
+	{
+		id: 323412,
+		title: 'Toolmaker'
+	},
+	{
+		id: 331111,
+		title: 'Bricklayer'
+	},
+	{
+		id: 331112,
+		title: 'Stonemason'
+	},
+	{
+		id: 331212,
+		title: 'Carpenter'
+	},
+	{
+		id: 331213,
+		title: 'Joiner'
+	},
+	{
+		id: 333211,
+		title: 'Fibrous Plasterer'
+	},
+	{
+		id: 333212,
+		title: 'Solid Plasterer'
+	},
+	{
+		id: 334111,
+		title: 'Plumber  '
+	},
+	{
+		id: 334113,
+		title: 'Drainer'
+	},
+	{
+		id: 334114,
+		title: 'Gasfitter'
+	},
+	{
+		id: 334115,
+		title: 'Roof Plumber'
+	},
+	{
+		id: 341113,
+		title: 'Lift Mechanic'
+	},
+	{
+		id: 342311,
+		title: 'Business Machine Mechanic'
+	},
+	{
+		id: 342312,
+		title: 'Communications Operator'
+	},
+	{
+		id: 342313,
+		title: 'Electronic Equipment Trades Worker'
+	},
+	{
+		id: 342314,
+		title: 'Electronic Instrument Trades Worker  '
+	},
+	{
+		id: 342413,
+		title: 'Telecommunications Linesworker'
+	},
+	{
+		id: 361113,
+		title: 'Pet Groomer'
+	},
+	{
+		id: 362212,
+		title: 'Arborist'
+	},
+	{
+		id: 392111,
+		title: 'Print Finisher'
+	},
+	{
+		id: 392112,
+		title: 'Screen Printer'
+	},
+	{
+		id: 393212,
+		title: 'Clothing Patternmaker'
+	},
+	{
+		id: 393213,
+		title: 'Dressmaker or Tailor'
+	},
+	{
+		id: 394211,
+		title: 'Furniture Finisher'
+	},
+	{
+		id: 394213,
+		title: 'Wood Machinist'
+	},
+	{
+		id: 399212,
+		title: 'Gas or Petroleum Operator'
+	},
+	{
+		id: 399213,
+		title: 'Power Generation Plant Operator'
+	},
+	{
+		id: 399311,
+		title: 'Gallery or Museum Technician'
+	},
+	{
+		id: 399312,
+		title: 'Library Technician'
+	},
+	{
+		id: 399511,
+		title: 'Broadcast Transmitter Operator'
+	},
+	{
+		id: 399512,
+		title: 'Camera Operator '
+	},
+	{
+		id: 399514,
+		title: 'Make Up Artist'
+	},
+	{
+		id: 399515,
+		title: 'Musical Instrument Maker or Repairer'
+	},
+	{
+		id: 399516,
+		title: 'Sound Technician'
+	},
+	{
+		id: 399911,
+		title: 'Diver'
+	},
+	{
+		id: 399913,
+		title: 'Optical Dispenser'
+	},
+	{
+		id: 411211,
+		title: 'Dental Hygienist'
+	},
+	{
+		id: 411213,
+		title: 'Dental Technician'
+	},
+	{
+		id: 411214,
+		title: 'Dental Therapist'
+	},
+	{
+		id: 411411,
+		title: 'Enrolled Nurse'
+	},
+	{
+		id: 411412,
+		title: 'Mothercraft Nurse'
+	},
+	{
+		id: 411711,
+		title: 'Community Worker'
+	},
+	{
+		id: 411712,
+		title: 'Disabilities Services Officer'
+	},
+	{
+		id: 411713,
+		title: 'Family Support Worker'
+	},
+	{
+		id: 411714,
+		title: 'Parole or Probation Officer'
+	},
+	{
+		id: 411715,
+		title: 'Residential Care Officer'
+	},
+	{
+		id: 411716,
+		title: 'Youth Worker'
+	},
+	{
+		id: 421111,
+		title: 'Child Care Worker'
+	},
+	{
+		id: 421113,
+		title: 'Nanny'
+	},
+	{
+		id: 422112,
+		title: 'Integration Aide'
+	},
+	{
+		id: 423311,
+		title: 'Hospital Orderly'
+	},
+	{
+		id: 423312,
+		title: 'Nursing Support Worker'
+	},
+	{
+		id: 423313,
+		title: 'Personal Care Assistant'
+	},
+	{
+		id: 423314,
+		title: 'Therapy Aide'
+	},
+	{
+		id: 431111,
+		title: 'Bar Attendant'
+	},
+	{
+		id: 431112,
+		title: 'Barista'
+	},
+	{
+		id: 431912,
+		title: 'Doorperson or Luggage Porter'
+	},
+	{
+		id: 441211,
+		title: 'Emergency Service Worker'
+	},
+	{
+		id: 441212,
+		title: 'Fire Fighter'
+	},
+	{
+		id: 441311,
+		title: 'Detective'
+	},
+	{
+		id: 441312,
+		title: 'Police Officer'
+	},
+	{
+		id: 442214,
+		title: 'Private Investigator'
+	},
+	{
+		id: 442215,
+		title: 'Retail Loss Prevention Officer'
+	},
+	{
+		id: 442216,
+		title: 'Security Consultant'
+	},
+	{
+		id: 442217,
+		title: 'Security Officer'
+	},
+	{
+		id: 451612,
+		title: 'Travel Consultant'
+	},
+	{
+		id: 452322,
+		title: 'Sports Umpire'
+	},
+	{
+		id: 452414,
+		title: 'Lifeguard'
+	},
+	{
+		id: 511111,
+		title: 'Contract Administrator'
+	},
+	{
+		id: 511112,
+		title: 'Program or Project Administrator'
+	},
+	{
+		id: 512211,
+		title: 'Health Practice Manager'
+	},
+	{
+		id: 521211,
+		title: 'Secretary  '
+	},
+	{
+		id: 521212,
+		title: 'Legal Secretary'
+	},
+	{
+		id: 532111,
+		title: 'Data Entry Operator'
+	},
+	{
+		id: 532113,
+		title: 'Word Processing Operator'
+	},
+	{
+		id: 541111,
+		title: 'Call or Contact Centre Team Leader'
+	},
+	{
+		id: 541112,
+		title: 'Call or Contact Centre Operator'
+	},
+	{
+		id: 542111,
+		title: 'Receptionist  '
+	},
+	{
+		id: 542112,
+		title: 'Admissions Clerk'
+	},
+	{
+		id: 542113,
+		title: 'Hotel or Motel Receptionist'
+	},
+	{
+		id: 542114,
+		title: 'Medical Receptionist'
+	},
+	{
+		id: 551111,
+		title: 'Accounts Clerk'
+	},
+	{
+		id: 551112,
+		title: 'Cost Clerk'
+	},
+	{
+		id: 552312,
+		title: 'Insurance Consultant'
+	},
+	{
+		id: 552314,
+		title: 'Statistical Clerk'
+	},
+	{
+		id: 561211,
+		title: 'Courier'
+	},
+	{
+		id: 561212,
+		title: 'Postal Delivery Officer'
+	},
+	{
+		id: 561411,
+		title: 'Mail Clerk'
+	},
+	{
+		id: 561912,
+		title: 'Meter Reader'
+	},
+	{
+		id: 561913,
+		title: 'Parking Inspector'
+	},
+	{
+		id: 591112,
+		title: 'Production Clerk'
+	},
+	{
+		id: 591113,
+		title: 'Purchasing Officer'
+	},
+	{
+		id: 591115,
+		title: 'Stock Clerk'
+	},
+	{
+		id: 591116,
+		title: 'Warehouse Administrator'
+	},
+	{
+		id: 591117,
+		title: 'Order Clerk'
+	},
+	{
+		id: 599511,
+		title: 'Customs Officer'
+	},
+	{
+		id: 599512,
+		title: 'Immigration Officer'
+	},
+	{
+		id: 599516,
+		title: 'Taxation Inspector'
+	},
+	{
+		id: 599518,
+		title: 'Transport Operations Inspector'
+	},
+	{
+		id: 599913,
+		title: 'Proof Reader'
+	},
+	{
+		id: 599914,
+		title: 'Radio Despatcher'
+	},
+	{
+		id: 599915,
+		title: 'Clinical Coder'
+	},
+	{
+		id: 599916,
+		title: 'Facilities Administrator'
+	},
+	{
+		id: 612112,
+		title: 'Property Manager'
+	},
+	{
+		id: 612114,
+		title: 'Real Estate Agent'
+	},
+	{
+		id: 612115,
+		title: 'Real Estate Representative'
+	},
+	{
+		id: 621311,
+		title: 'Motor Vehicle or Caravan Salesperson'
+	},
+	{
+		id: 621312,
+		title: 'Motor Vehicle Parts Interpreter'
+	},
+	{
+		id: 621911,
+		title: 'Materials Recycler'
+	},
+	{
+		id: 639111,
+		title: 'Model'
+	},
+	{
+		id: 639112,
+		title: 'Sales Demonstrator'
+	},
+	{
+		id: 639211,
+		title: 'Retail Buyer'
+	},
+	{
+		id: 711114,
+		title: 'Stone Processing Machine Operator'
+	},
+	{
+		id: 711912,
+		title: 'Motion Picture Projectionist'
+	},
+	{
+		id: 711914,
+		title: 'Sterilisation Technician'
+	},
+	{
+		id: 712211,
+		title: 'Driller'
+	},
+	{
+		id: 712212,
+		title: 'Miner'
+	},
+	{
+		id: 712213,
+		title: 'Shot Firer'
+	},
+	{
+		id: 712911,
+		title: 'Boiler or Engine Operator'
+	},
+	{
+		id: 712912,
+		title: 'Bulk Materials Handling Plant Operator'
+	},
+	{
+		id: 712915,
+		title: 'Concrete Pump Operator'
+	},
+	{
+		id: 712917,
+		title: 'Railway Signal Operator'
+	},
+	{
+		id: 712921,
+		title: 'Waste Water or Water Plant Operator'
+	},
+	{
+		id: 712922,
+		title: 'Weighbridge Operator'
+	},
+	{
+		id: 721111,
+		title: 'Agricultural and Horticultural Mobile Plant Operator'
+	},
+	{
+		id: 721211,
+		title: 'Earthmoving Plant Operator  '
+	},
+	{
+		id: 721212,
+		title: 'Backhoe Operator'
+	},
+	{
+		id: 721213,
+		title: 'Bulldozer Operator'
+	},
+	{
+		id: 721214,
+		title: 'Excavator Operator'
+	},
+	{
+		id: 721215,
+		title: 'Grader Operator'
+	},
+	{
+		id: 721216,
+		title: 'Loader Operator'
+	},
+	{
+		id: 721913,
+		title: 'Paving Plant Operator'
+	},
+	{
+		id: 721915,
+		title: 'Road Roller Operator'
+	},
+	{
+		id: 731311,
+		title: 'Train Driver'
+	},
+	{
+		id: 821111,
+		title: 'Builder\'s Labourer'
+	},
+	{
+		id: 821411,
+		title: 'Building Insulation Installer'
+	},
+	{
+		id: 821412,
+		title: 'Home Improvement Installer'
+	},
+	{
+		id: 821711,
+		title: 'Construction Rigger'
+	},
+	{
+		id: 821712,
+		title: 'Scaffolder'
+	},
+	{
+		id: 821713,
+		title: 'Steel Fixer'
+	},
+	{
+		id: 821714,
+		title: 'Structural Steel Erector'
+	},
+	{
+		id: 821911,
+		title: 'Crane Chaser'
+	},
+	{
+		id: 821912,
+		title: 'Driller\'s Assistant'
+	},
+	{
+		id: 821913,
+		title: 'Lagger'
+	},
+	{
+		id: 821914,
+		title: 'Mining Support Worker'
+	},
+	{
+		id: 831211,
+		title: 'Meat Boner and Slicer'
+	},
+	{
+		id: 831212,
+		title: 'Slaughterer'
+	},
+	{
+		id: 839311,
+		title: 'Product Examiner'
+	},
+	{
+		id: 839312,
+		title: 'Product Grader'
+	},
+	{
+		id: 839313,
+		title: 'Product Tester'
+	},
+	{
+		id: 839912,
+		title: 'Chemical Plant Worker'
+	},
+	{
+		id: 839918,
+		title: 'Recycling Worker'
+	},
+	{
+		id: 841311,
+		title: 'Forestry Worker'
+	},
+	{
+		id: 841312,
+		title: 'Logging Assistant'
+	},
+	{
+		id: 841313,
+		title: 'Tree Faller'
+	},
+	{
+		id: 841911,
+		title: 'Hunter-Trapper'
+	},
+	{
+		id: 841913,
+		title: 'Pest Controller'
+	},
+	{
+		id: 899211,
+		title: 'Deck Hand'
+	},
+	{
+		id: 899212,
+		title: 'Fishing Hand'
+	},
+	{
+		id: 899412,
+		title: 'Autoglazier'
+	},
+	{
+		id: 899415,
+		title: 'Tyre Fitter'
+	},
+	{
+		id: 899911,
+		title: 'Bicycle Mechanic'
+	},
+	{
+		id: 899912,
+		title: 'Car Park Attendant'
+	},
+	{
+		id: 899913,
+		title: 'Crossing Supervisor'
+	},
+	{
+		id: 899914,
+		title: 'Electrical or Telecommunications Trades Assistant'
+	},
+	{
+		id: 899915,
+		title: 'Leaflet or Newspaper Deliverer'
+	},
+	{
+		id: 899918,
+		title: 'Sign Erector'
+	},
+	{
+		id: 899921,
+		title: 'Ticket Collector or Usher'
+	},
+	{
+		id: 899923,
+		title: 'Road Traffic Controller'
+	},
+	{
+		id: 254412,
+		title: 'Registered Nurse (Aged Care)'
+	},
+	{
+		id: 254413,
+		title: 'Registered Nurse (Child and Family Health)'
+	},
+	{
+		id: 254414,
+		title: 'Registered Nurse (Community Health)'
+	},
+	{
+		id: 254416,
+		title: 'Registered Nurse (Developmental Disability)'
+	},
+	{
+		id: 254417,
+		title: 'Registered Nurse (Disability and Rehabilitation)'
+	},
+	{
+		id: 254418,
+		title: 'Registered Nurse (Medical)'
+	},
+	{
+		id: 254421,
+		title: 'Registered Nurse (Medical Practice)'
+	},
+	{
+		id: 254423,
+		title: 'Registered Nurse (Perioperative)'
+	},
+	{
+		id: 254425,
+		title: 'Registered Nurse (Paediatrics)'
+	},
+];
