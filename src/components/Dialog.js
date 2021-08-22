@@ -5,8 +5,14 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
+import FolderList from './List'
 
 export default function AlertDialog() {
+  const skilss = ['Numeracy' ,'Digital engagement' ,'Teamwork' ,'Writing','Reading' ,'Learning'
+    ,'Problem solving',
+    'Oral communication',
+    'Planning and organising',
+    'Initiative and innovation']
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -14,6 +20,10 @@ export default function AlertDialog() {
   };
 
   const handleClose = () => {
+    setOpen(false);
+  };
+  const handleShowJobs = () => {
+    window.open("seek.com", "_blank")
     setOpen(false);
   };
 
@@ -28,19 +38,18 @@ export default function AlertDialog() {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <DialogTitle id="alert-dialog-title">{"Use Google's location service?"}</DialogTitle>
+        <DialogTitle id="alert-dialog-title">{"Skils Required"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending anonymous location data to
-            Google, even when no apps are running.
+          <FolderList />
           </DialogContentText>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} color="primary">
-            Disagree
+            Ok
           </Button>
-          <Button onClick={handleClose} color="primary" autoFocus>
-            Agree
+          <Button onClick={handleShowJobs} color="primary" autoFocus>
+            Show Jobs
           </Button>
         </DialogActions>
       </Dialog>

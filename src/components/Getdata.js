@@ -140,12 +140,14 @@ export const jsonData = {
   };
 
 export const ShowData = (props) => {
+    console.log(props.bucket1)
     const [relevantJobs,setRelevantJobs] = React.useState([])
     const classes = useStyles();
     //console.log(props.bucket1.[0].map((key) => props.bucket1[key]))
     return(
         <div className="main-content">
         { props.bucket1 && props.bucket1.map((item,index) => {
+            console.log(item.length)
             //item.map((val) => console.log(val))
           return <div className="skill-card" key={index}>
             <Card className={classes.root}>
@@ -154,8 +156,8 @@ export const ShowData = (props) => {
                     <Typography className={classes.skillPercentage} variant="caption" component="h2">
                         Skill percentage
                     </Typography>
-                    <BorderLinearProgress  variant="determinate" value={parseInt(100)} />
-                    <Typography   variant="body2" color="textSecondary">100 %</Typography>
+                    <BorderLinearProgress  variant="determinate" value={parseInt(`${item.length}0`)} />
+                    <Typography   variant="body2" color="textSecondary">{item.length}0 %</Typography>
                     <Typography variant="subtitle2" gutterBottom>
                         {item[0].ANZSCO_Title.improve}
                     </Typography>

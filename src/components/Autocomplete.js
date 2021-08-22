@@ -5,9 +5,7 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import { makeStyles,withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { ShowData } from './Getdata';
-import Breadcrumbs from '@material-ui/core/Breadcrumbs';
-import Link from '@material-ui/core/Link';
-import InputLabel from '@material-ui/core/InputLabel';
+import Typography from '@material-ui/core/Typography';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
@@ -2428,6 +2426,7 @@ const useStyles = makeStyles((theme) => ({
     formControl: {
         margin: theme.spacing(1),
         minWidth: 120,
+        fontSize:'20px'
       },
     select:{
       textAlign:'center',
@@ -2446,11 +2445,14 @@ export default function SelectAuto() {
 
   
   const handleChange = async (event) => {
+    if(value == undefined || value == '') {
+        alert("SELECT A JOB ROLE");
+       // event.prevent.default()
+        return;
+    }
       setBucketStatus(event.target.value)
       if(event.target.value === 1){
-        console.log(bucketstatus)
-
-       //findJobMatches(value,event.target.value)
+        //findJobMatches(value,event.target.value)
        const result = await findJobMatchesBucket2(value,event.target.value);
         await setBucket1(result)  
       }
@@ -2518,28 +2520,28 @@ const findJobMatchesBucket2 = async (jobCode) => {
     return new Promise(resolve => fetch(`http://localhost:3004/skills`)
                 .then(res => res.json())
                 .then(data => {
-                    data[jobCode].map((selectedItem) => {
-                        setSelectedArray.push(selectedItem);
-                    })
-                    Object.values(data).map((item) => {
-                        matchedArray = item.filter((matchedJob,index) => {
-                            return  ((setSelectedArray[index].Core_Competencies === matchedJob.Core_Competencies ) &&
-                                    (setSelectedArray[index].Score === matchedJob.Score )&&
-                                    ((setSelectedArray[index].ANZSCO_Title !== matchedJob.ANZSCO_Title ))) 
-                                    })
-                        if(bucket === 1) {
-                            if(matchedArray.length === 10) {
-                                displayJobs.push(matchedArray)
+                    if(data) {
+                        data[jobCode].map((selectedItem) => {
+                            setSelectedArray.push(selectedItem);
+                        })
+                        Object.values(data).map((item) => {
+                            matchedArray = item.filter((matchedJob,index) => {
+                                return  ((setSelectedArray[index].Core_Competencies === matchedJob.Core_Competencies ) &&
+                                        (setSelectedArray[index].Score === matchedJob.Score )&&
+                                        ((setSelectedArray[index].ANZSCO_Title !== matchedJob.ANZSCO_Title ))) 
+                                        })
+                            if(bucket === 1) {
+                                if(matchedArray.length === 10) {
+                                    displayJobs.push(matchedArray)
+                                }
                             }
-                        }
-                        if(bucket === 2) {
-                            if(matchedArray.length >= 7) {
-                                displayJobs.push(matchedArray)
-                            }
-                        }
-                       
-                       
-                    })
+                            if(bucket === 2) {
+                                if(matchedArray.length >= 7) {
+                                    displayJobs.push(matchedArray)
+                                }
+                            }                       
+                        })
+                    }
                     resolve(displayJobs);
                 }))
             }
@@ -2549,6 +2551,9 @@ const findJobMatchesBucket2 = async (jobCode) => {
         const result = await findJobMatches(newValue.ANZSCO_Code,bucketstatus);
         await setBucket1(result)  
   }
+  useEffect(() => {
+
+  },[bucketstatus])
   return (
     <>
     <div className={classes.root}>
@@ -2556,9 +2561,9 @@ const findJobMatchesBucket2 = async (jobCode) => {
         <Grid item xs>
         </Grid>
         <Grid className={classes.select} item xs={10} md={6}>
+        <Typography  variant="h6" gutterBottom>Career Paths</Typography>
+
         <FormControl className={classes.formControl}>
-        <InputLabel id="demo-simple-select-label">Career Paths</InputLabel>
-        <br></br>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
@@ -2566,14 +2571,13 @@ const findJobMatchesBucket2 = async (jobCode) => {
           onChange={handleChange}
         >
           <MenuItem value={1}>Similar To</MenuItem>
-          <MenuItem value={2}>Better Than</MenuItem>
+          <MenuItem value={2}>To Upgrade From</MenuItem>
         </Select>
       </FormControl>
       
         <div>
         {  <Autocomplete
                     id="free-solo-demo"
-                    freeSolo
                     options={sample}
                     inputValue={inputValue}
                     onChange={(event, newValue) => {
@@ -2593,7 +2597,7 @@ const findJobMatchesBucket2 = async (jobCode) => {
                     </Grid>
                 </Grid>
             </div>  
-            { <ShowData bucket1={bucket1} /> }
+            { <ShowData bucket1={bucket1} bucketStatus={bucketstatus}/> }
             </>
   );
 }
