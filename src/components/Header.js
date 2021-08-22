@@ -30,9 +30,13 @@ export default function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+            Aussie Career Map
           </Typography>
           <Button color="inherit">Login</Button>
+          <Button color="inherit">About</Button>
+
+          <Button color="inherit">Contact</Button>
+          
         </Toolbar>
       </AppBar>
     </div>

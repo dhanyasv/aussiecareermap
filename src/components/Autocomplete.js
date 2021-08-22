@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-import React , {createContex,useState} from 'react';
+import React , {createContex,useEffect,useState} from 'react';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { makeStyles,withStyles } from '@material-ui/core/styles';
@@ -2444,9 +2444,22 @@ export default function SelectAuto() {
   const [bucket2, setBucket2] = React.useState([]);
   const [bucketstatus,setBucketStatus] = React.useState(1);
 
-  const handleChange = (event) => {
-      console.log(value)
-    setBucketStatus(event.target.value);
+  
+  const handleChange = async (event) => {
+      setBucketStatus(event.target.value)
+      if(event.target.value === 1){
+        console.log(bucketstatus)
+
+       //findJobMatches(value,event.target.value)
+       const result = await findJobMatchesBucket2(value,event.target.value);
+        await setBucket1(result)  
+      }
+      if(event.target.value === 2){
+        console.log(bucketstatus)
+
+        const result = await findJobMatchesBucket2(value,event.target.value);
+        await setBucket1(result)  
+    }
   };
  // const [inputValue, setInputValue] = React.useState('');
 
@@ -2501,7 +2514,7 @@ const findJobMatchesBucket2 = async (jobCode) => {
                     resolve(displayJobs);
                 }))
             }
-  const findJobMatches = async (jobCode) => {
+  const findJobMatches = async (jobCode,bucket) => {
     return new Promise(resolve => fetch(`http://localhost:3004/skills`)
                 .then(res => res.json())
                 .then(data => {
@@ -2514,20 +2527,26 @@ const findJobMatchesBucket2 = async (jobCode) => {
                                     (setSelectedArray[index].Score === matchedJob.Score )&&
                                     ((setSelectedArray[index].ANZSCO_Title !== matchedJob.ANZSCO_Title ))) 
                                     })
-
-                        if(matchedArray.length === 10) {
-                            displayJobs.push(matchedArray)
+                        if(bucket === 1) {
+                            if(matchedArray.length === 10) {
+                                displayJobs.push(matchedArray)
+                            }
                         }
+                        if(bucket === 2) {
+                            if(matchedArray.length >= 7) {
+                                displayJobs.push(matchedArray)
+                            }
+                        }
+                       
+                       
                     })
                     resolve(displayJobs);
                 }))
             }
   const changeValue = async (event,newValue) => {
-         setValue((state) => 
-         setValue({'newST' : newValue.ANZSCO_Code}
-         ))
-        console.log(value.newST)
-        const result = await findJobMatchesBucket2(newValue.ANZSCO_Code);
+      console.log(bucketstatus)
+         setValue((prevState) =>  newValue.ANZSCO_Code )
+        const result = await findJobMatches(newValue.ANZSCO_Code,bucketstatus);
         await setBucket1(result)  
   }
   return (
@@ -2555,7 +2574,6 @@ const findJobMatchesBucket2 = async (jobCode) => {
         {  <Autocomplete
                     id="free-solo-demo"
                     freeSolo
-                    value={value}
                     options={sample}
                     inputValue={inputValue}
                     onChange={(event, newValue) => {
