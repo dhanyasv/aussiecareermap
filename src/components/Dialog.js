@@ -23,7 +23,7 @@ export default function AlertDialog() {
     setOpen(false);
   };
   const handleShowJobs = () => {
-    window.open("seek.com", "_blank")
+    window.open("https://www.seek.com.au/", "_blank")
     setOpen(false);
   };
 

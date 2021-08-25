@@ -2466,7 +2466,7 @@ export default function SelectAuto() {
  // const [inputValue, setInputValue] = React.useState('');
 
   const getJobs = async () =>{
-    const data = fetch('http://localhost:3004/jobs')
+    const data = fetch('/jobs')
                 .then(res => res.json())
                 .then(daa => {
                     //return daa;
@@ -2496,7 +2496,7 @@ const setSelectedArray = [];
   let notMatchedArray;
 
 const findJobMatchesBucket2 = async (jobCode) => {
-    return new Promise(resolve => fetch(`http://localhost:3004/skills`)
+    return new Promise(resolve => fetch('/skills`')
                 .then(res => res.json())
                 .then(data => {
                     data[jobCode].map((selectedItem) => {
@@ -2517,7 +2517,7 @@ const findJobMatchesBucket2 = async (jobCode) => {
                 }))
             }
   const findJobMatches = async (jobCode,bucket) => {
-    return new Promise(resolve => fetch(`http://localhost:3004/skills`)
+    return new Promise(resolve => fetch('/skills')
                 .then(res => res.json())
                 .then(data => {
                     if(data) {
